@@ -63,6 +63,12 @@ public class SetVelocity2DAction : MonoBehaviour
     // -------------------------------------------------------------------------
     #region Action Functions
     // -------------------------------------------------------------------------
+    public void ActionSetSpeed(float newSpeed)
+    {
+        // Set our speed multiplier to a new value
+        speed = newSpeed;
+    }
+    // -------------------------------------------------------------------------
     public void ActionSetVelocity(Vector2 newVelocity)
     {
         // Apply the new velocity to our rigidbody
